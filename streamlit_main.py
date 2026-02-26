@@ -98,7 +98,7 @@ file_path = r'https://www.dropbox.com/scl/fi/q05nabk8r0822dy8q1kew/_-_20251124.c
 @st.cache_resource # 동일함수 반복 호출되면, 매번 실핼하지 않고 직전
 def read_pensiondata():
     data = PensionData(file_path)
-     return data
+ return data
 
 data = read_pensiondata()
 
